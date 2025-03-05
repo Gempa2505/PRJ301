@@ -21,7 +21,6 @@ public class DBUtils {
     private static final String DB_Name = "Web_05_a";
     private static final String DB_Username = "sa";
     private static final String DB_Password = "12345";
-
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Connection conn = null;
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
